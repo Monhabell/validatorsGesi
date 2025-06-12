@@ -17,22 +17,34 @@ Bot de automatización desarrollado en Python que permite:
 - 📦 Instalador incluido (Inno Setup)
 - 🛠️ Configuración para PyInstaller
 
-## 📂 Estructura del proyecto
+## 📂 Estructura completa del proyecto
 
-├── /crear_hc/ # Recursos para creación de ejecutables
-├── /dist/ # Distribuciones generadas
-├── /img/ # Assets visuales
-├── /pyinstaller/ # Configuraciones PyInstaller
-├── /venv/ # Entorno virtual (ignorar)
+```bash
+.
+├── /crear_hc/          # Recursos para creación de ejecutables
+├── /dist/              # Distribuciones generadas (ejecutables)
+├── /img/               # Assets visuales (imágenes/iconos)
+├── /pyinstaller/       # Configuraciones para PyInstaller
+├── /venv/              # Entorno virtual Python (ignorar en producción)
 │
-├── .gitignore
-├── version.py # Control de versiones
-├── areas.json # Configuración de áreas
-├── bases.json # Configuración de bases
-├── environment.yml # Entorno Conda
-├── 0din.py # Módulo principal del bot
-├── index.py # Punto de entrada alternativo
-├── requirements.txt # Dependencias
-└── setup.iss # Script de instalación
+├── .gitignore          # Archivos ignorados por Git
+├── __version__.py      # Control de versiones del software
+├── areas.json          # Configuración de áreas/segmentos
+├── bases.json          # Configuración de bases de datos
+├── environment.yml     # Configuración de entorno Conda
+├── error_log.txt       # Registro de errores de la aplicación
+├── fondo.jpg           # Imagen de fondo para la interfaz
+├── get-pip.py          # Instalador de pip alternativo
+├── index.py            # Punto de entrada alternativo
+├── index.spec          # Configuración para PyInstaller (alternativa)
+├── info_leeme.txt      # Documentación adicional
+├── install_dependencies.bat  # Script de instalación de dependencias
+├── logo.ico            # Icono de la aplicación
+├── 0din.py             # Módulo principal del bot (entry point)
+├── 0din.spec           # Configuración principal para PyInstaller
+├── requirements.txt    # Dependencias de Python
+├── setup.iss           # Script para crear instalador con Inno Setup
+├── setup.py            # Script de configuración del proyecto
+└── version.txt         # Control de versiones legible
 
 
