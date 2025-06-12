@@ -18,3 +18,21 @@ Bot de automatización desarrollado en Python que permite:
 - 🛠️ Configuración para PyInstaller
 
 ## 📂 Estructura del proyecto
+
+├── /crear_hc/ # Recursos para creación de ejecutables
+├── /dist/ # Distribuciones generadas
+├── /img/ # Assets visuales
+├── /pyinstaller/ # Configuraciones PyInstaller
+├── /venv/ # Entorno virtual (ignorar)
+│
+├── .gitignore
+├── version.py # Control de versiones
+├── areas.json # Configuración de áreas
+├── bases.json # Configuración de bases
+├── environment.yml # Entorno Conda
+├── 0din.py # Módulo principal del bot
+├── index.py # Punto de entrada alternativo
+├── requirements.txt # Dependencias
+└── setup.iss # Script de instalación
+
+
